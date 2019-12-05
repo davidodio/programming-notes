@@ -1,2 +1,3 @@
-# programming-notes
-Things learnt during my adventures in code
+# Programming Notes
+
+Things learnt during my adventures in code.
