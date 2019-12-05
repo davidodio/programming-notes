@@ -1,0 +1,27 @@
+{
+  "name": "@davidodio/programming-notes",
+  "description": "A collection of things I have learned during my adventures in coding.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://github.com/davidodio/programming-notes/",
+  "bugs": {
+    "url": "https://github.com/davidodio/programming-notes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidodio/programming-notes.git"
+  },
+  "author": "David ODonnell <code@davidod.io>",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "husky": ">=1",
+    "lint-staged": ">=8",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
